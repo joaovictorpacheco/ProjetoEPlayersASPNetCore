@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\EPlayersAspNetCore\\EPlayersAspNetCore.csproj": {}
+    "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\ProjetoEPlayersASPNetCore\\EPlayersAspNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\EPlayersAspNetCore\\EPlayersAspNetCore.csproj": {
+    "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\ProjetoEPlayersASPNetCore\\EPlayersAspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\EPlayersAspNetCore\\EPlayersAspNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\ProjetoEPlayersASPNetCore\\EPlayersAspNetCore.csproj",
         "projectName": "EPlayersAspNetCore",
-        "projectPath": "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\EPlayersAspNetCore\\EPlayersAspNetCore.csproj",
+        "projectPath": "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\ProjetoEPlayersASPNetCore\\EPlayersAspNetCore.csproj",
         "packagesPath": "C:\\Users\\drica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\EPlayersAspNetCore\\obj\\",
+        "outputPath": "C:\\Users\\drica\\OneDrive\\Área de Trabalho\\CURSO\\2021\\ProjetoEPlayersASPNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\drica\\AppData\\Roaming\\NuGet\\NuGet.Config"
