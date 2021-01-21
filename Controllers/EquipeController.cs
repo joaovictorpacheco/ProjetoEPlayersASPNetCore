@@ -13,6 +13,8 @@ namespace EPlayersAspNetCore.Controllers
     {
         //Criamos uma instancia de equipeModel
         Equipe equipeModel = new Equipe();
+        
+        // http://localhost:5000;Equipe/Listar
         [Route("Listar")]
         public IActionResult Index()
         {
@@ -20,6 +22,8 @@ namespace EPlayersAspNetCore.Controllers
             ViewBag.Equipes = equipeModel.ReadAll();
             return View();
         }
+        
+        // http://localhost:5000;Equipe/Cadastrar
         [Route("Cadastrar")]
 
         public IActionResult Cadastrar(IFormCollection form)
@@ -53,7 +57,7 @@ namespace EPlayersAspNetCore.Controllers
             }
             else
             {
-                novaEquipe.Imagem = "padrao.jpg";
+                novaEquipe.Imagem = "padrao.png";
             }
 
 
@@ -62,6 +66,16 @@ namespace EPlayersAspNetCore.Controllers
             //Atualiza a lista de equipes na View
             ViewBag.Equipes = equipeModel.ReadAll();
 
+            return LocalRedirect("~/Equipe/Listar");
+        }
+        
+        // http://localhost:5000;Equipe/1
+        [Route("(id)")]
+        public IActionResult Excluir(int id)
+        {
+            equipeModel.Delete(id);
+            ViewBag.Equipes = equipeModel.ReadAll();
+            
             return LocalRedirect("~/Equipe/Listar");
         }
     }
